@@ -57,9 +57,9 @@ def pipes(pls):
     return 0
 
 
-players = [-3, -2, -1, 1, 2, 3, 4, 5]
-v = shoes_mn_v
-vect = shapley_value(players, v, [players[0], players[-1]])
+players = [1, 2, 3, 4, 5]
+v = road
+vect = shapley_value(players, v)
 
 print(vect)
 print(sum(vect))
